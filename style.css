@@ -1,0 +1,54 @@
+.header{
+    color: rgb(1, 109, 211);
+    font-size: 20;
+    text-align: center;
+    font-family: fantasy;
+}
+body{
+    background-color: dimgrey;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+}
+.links{
+    text-align: right;
+    font-size: small;
+}
+.links1{
+    text-align: left;
+    font-size: small;
+}
+#espacioh{
+    width: 1480px;
+    height: 30px;
+}
+#espaciob{
+    color: white;
+    width: 1480px;
+    height: 200px;
+}
+#espacioa{
+    width:1920px;
+    height: 100px;
+    text-align: left;
+    font-family: fantasy;
+    color: rgb(1, 109, 211);
+}
+#adse{
+    font-family: fantasy;
+    text-align: left;
+    padding: 5px;
+    margin: 15px 30px;
+}
+.round {
+    color: silver;
+    width: 25%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
