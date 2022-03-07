@@ -1,8 +1,11 @@
 .header{
-    color: rgb(1, 109, 211);
-    font-size: 20;
+    color: rgb(3, 30, 54);
+    font-size: 180%;
     text-align: center;
     font-family: fantasy;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 body{
     background-color: dimgrey;
@@ -26,7 +29,7 @@ h1{
 #espaciob{
     color: white;
     width: 1480px;
-    height: 200px;
+    height: 185px;
 }
 #espacioa{
     width:1920px;
@@ -41,14 +44,23 @@ h1{
     padding: 5px;
     margin: 15px 30px;
 }
-.round {
+.round{
+    margin: auto;
     color: silver;
-    width: 25%;
-    border-radius: 15px;
+    width: 40%;
+    border-radius: 100px;
     border: 1px #000 solid;
-    padding: 5px 5px 5px 25px;
-    text-align: center;
+    padding: 15px 5px 5px 85px;
     top: 0;
-    left: 0;
-    z-index: 5;
+    right: 50;
 }
+.babajo{
+    position: relative;
+    color: rgb(3, 30, 54);
+    top: 20px;
+    right: -2%;
+    font-family: fantasy;
+}
+  .wbg {
+    background-image: url('fondo.jpg');
+  }
