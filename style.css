@@ -7,6 +7,9 @@
     width: 50%;
     padding: 10px;
 }
+form{
+    display: block;
+}
 body{
     background-color: dimgrey;
 }
@@ -51,14 +54,34 @@ h1{
     border-radius: 100px;
     border: 1px #000 solid;
     padding: 15px 5px 5px 85px;
+    display: block;
+    border-width: thick;
+    border-color: rgb(3, 30, 54);;
     top: 0;
     right: 50;
+    background-image: url('fondo.jpg');
 }
 .babajo{
     position: relative;
     color: rgb(3, 30, 54);
     top: 20px;
+    font-size: medium;
+    width: 150px;
+    height: 25px;
     right: -2%;
+    display: inline-block;
+    font-family: fantasy;
+}
+.babajoi{
+    position: relative;
+    color: rgb(3, 30, 54);
+    font-size: medium;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    top: 25px;
+    display: block;
+    text-align: center;
     font-family: fantasy;
 }
   .wbg {
