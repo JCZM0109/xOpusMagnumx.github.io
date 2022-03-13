@@ -1,7 +1,7 @@
 .header{
     color: rgb(3, 30, 54);
     font-size: 180%;
-    text-align: center;
+    display: block;
     font-family: fantasy;
     margin: auto;
     width: 50%;
@@ -50,7 +50,7 @@ h1{
 .round{
     margin: auto;
     color: silver;
-    width: 40%;
+    width: 35%;
     border-radius: 100px;
     border: 1px #000 solid;
     padding: 15px 5px 5px 85px;
@@ -76,8 +76,8 @@ h1{
     position: relative;
     color: rgb(3, 30, 54);
     font-size: medium;
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 25px;
     margin: auto;
     top: 25px;
     display: block;
