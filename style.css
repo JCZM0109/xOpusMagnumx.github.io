@@ -7,11 +7,9 @@
     width: 50%;
     padding: 10px;
 }
-form{
+.aform{
     display: block;
-}
-body{
-    background-color: dimgrey;
+    text-align: left;
 }
 h1{
     text-align: center;
@@ -23,7 +21,18 @@ h1{
 }
 .links1{
     text-align: left;
-    font-size: small;
+    color: rgb(3, 30, 54);
+    font-size: larger;
+    position: relative;
+    margin-left: 10px;
+}
+.bus{
+    text-align: left;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom:30px;
+    color:coral;
 }
 #espacioh{
     width: 1480px;
@@ -43,9 +52,11 @@ h1{
 }
 #adse{
     font-family: fantasy;
+    margin-top:45px;
     text-align: left;
+    font-size:medium;
     padding: 5px;
-    margin: 15px 30px;
+    margin-left: 20px;
 }
 .round{
     margin: auto;
@@ -84,6 +95,78 @@ h1{
     text-align: center;
     font-family: fantasy;
 }
-  .wbg {
+.wbg {
     background-image: url('fondo.jpg');
   }
+#divi{
+    margin:0;
+    padding:0;
+    border-bottom:1px solid;
+    border-color: rgb(3, 30, 54);
+}
+.intro{
+    float:left;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+}
+.blanco{
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+#ffield{
+    text-align: left;
+    margin-top: 10px;
+}
+#grid{
+    display: grid;
+    padding: 10px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: 180px 500px 300px;
+    grid-template-rows: 50px 50px 50px;
+}
+
+.grid-item{
+    font-size: 13px;
+    font-family: fantasy;
+    padding: 10px;
+    text-align: left;
+    vertical-align: baseline;
+}
+.grid-item1{
+    font-size: 20px;
+    font-family: fantasy;
+    padding: 5px;
+    text-align: left;
+    vertical-align: baseline;
+    margin: 0;
+}
+.textinput{
+    width:100%;
+    height: 25px;
+    background-image: url('fondo.jpg');
+    border-color: rgb(3, 30, 54);
+}
+.tdif{
+    font-family: monospace;
+    font-size: 13px;
+    white-space: pre;   
+}
+#adbut{
+    background-color: cornflowerblue;
+    color: azure;
+}
+.grid-itemb{
+    font-size: 20px;
+    padding: 10px;
+    text-align: right;
+    font-family: fantasy;
+    vertical-align: baseline;
+    
+}

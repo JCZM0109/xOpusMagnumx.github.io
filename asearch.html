@@ -4,43 +4,42 @@
         <title>Advanced search</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body class="wbg">
         <h1>            
-            <div id="espaciob">
+            <header>
             <div class="links">
-                <a href="index.html">Regular search</a>
-            </div></div>
+                <a href="index.html">Regular search</a></div>
+            <div class="links1">
+               Atam
+            </div>
+            </header>
+            <div class="bus">
+                <label> Advanced search </label>
+            </div>
+        <div id="divi"></div>
         </h1>
-        <h2 id="adse">
-            <div style="padding: 5px;">Search for pages with the following parameters:</div>
-            <form action="https://google.com/search" name="f">
-                <div class="field">
-                    <label for="field1">All these words:</label>
-                    <input type="text" class="textinput" id="field1" value=""  name="as_q">
-                </div>
-                <br>
-                <div class="field">
-                    <label for="field2">this exact word or phrase: </label>
-                    <input type="text" class="textinput" id="field2" value=""  name="as_epq">
-                </div>
-                <br>
-                <div class="field">
-                    <label for="field3">any of this words: </label>
-                    <input type="text" class="textinput" id="field3" value=""  name="as_oq">
-                </div>
-                <br>
-                <div class="field">
-                    <label for="field4">none of these words: </label>
-                    <input type="text" class="textinput" id="field4" value=""  name="as_eq">
-                </div>
-                <br>
-                <div class="field">
-                    <label for="field5">numbers ranging from: </label>
-                    <input type="text" class="textinput1" id="field5" value=""  name="as_nlo">
-                    <span class="seperator">to</span>
-                    <input type="text" class="textinput2" id="field5" value=""  name="as_nhi">
-                </div>
-                <input type="submit" value="advanced search">
-            </form></h2>
+        <h2>
+        <form action="https://google.com/search" name="f">
+            <div id="grid">
+                <div class="grid-item1">Find pages with...</div>
+                <div class="grid-item"></div>
+                <div class="grid-item1">To do this in the search box:</div>
+                <div class="grid-item"><label for="field1">all these words:</label></div>
+                <div class="grid-item"><input type="text" class="textinput" id="field1" value=""  name="as_q"></div>
+                <div class="grid-item">Type the important words: <span class="tdif">tricolor rat terrier</span></div>
+                <div class="grid-item"><label for="field2">this exact word or phrase:</label></div>
+                <div class="grid-item"><input type="text" class="textinput" id="field2" value=""  name="as_epq"></div>
+                <div class="grid-item">Put exact words in quotes: <span class="tdif">'rat terrier'</span></div>
+                <div class="grid-item"><label for="field3">any of these words:</label></div>
+                <div class="grid-item"><input type="text" class="textinput" id="field3" value=""  name="as_oq"></div>
+                <div class="grid-item">Type <span class="tdif">OR</span> between all the words you want: <span class="tdif">miniature OR standar</span></div>
+                <div class="grid-item"><label for="field4">none of these words:</label></div>
+                <div class="grid-item"><input type="text" class="textinput" id="field4" value=""  name="as_eq"></div>
+                <div class="grid-item">Put a minus sign just before the words you don't want: <span class="tdif">-rodent, -"Jack Russell"</span></div>
+                <div class="grid-item"></div>
+                <div class="grid-itemb"><input type="submit" id="adbut" value="Advanced search"></div>
+                <div class="grid-item"></div>
+            </div>
+        </form></h2>
     </body>
 </html>
